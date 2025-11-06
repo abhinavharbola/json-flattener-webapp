@@ -1,4 +1,4 @@
-# 🪶 Flat D. JSON — JSON Flattener Web App
+# 🪶 Flat D. JSON - JSON Flattener Web App
 
 **Flat D. JSON** is a lightweight, interactive web app built with Streamlit that lets you flatten complex nested JSON files into a clean, key–value structure.
 
@@ -118,5 +118,6 @@ streamlit run app.py
 If you find this project helpful, please consider **starring ⭐ the repo** or submitting a **pull request** with your improvements!
 
 ---
+
 
 **Author:** [Abhinav Harbola](https://github.com/abhinavharbola)
