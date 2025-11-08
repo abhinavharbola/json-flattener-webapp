@@ -38,7 +38,7 @@ if st.button("Flatten JSON"):
              st.warning("The JSON input was empty or resulted in no flattened data.")
              st.stop()
 
-        st.success("✅ JSON flattened successfully!")
+        st.success("JSON flattened successfully!")
         st.json(flattened)
 
         # --- Create columns for download buttons ---
@@ -54,24 +54,25 @@ if st.button("Flatten JSON"):
             use_container_width=True
         )
 
-        # --- New Feature: Download CSV ---
+        # --------- Download CSV ---------
         try:
             # Convert the flattened dict to a DataFrame (as a single row)
             df = pd.DataFrame([flattened])
             csv_data = df.to_csv(index=False).encode('utf-8')
             
             col2.download_button(
-                label="📄 Download Flattened CSV",
+                label="Download Flattened CSV",
                 data=csv_data,
                 file_name="flattened.csv",
                 mime="text/csv",
                 use_container_width=True
             )
         except Exception as e:
-            st.error(f"⚠️ Failed to generate CSV: {e}")
+            st.error(f"Failed to generate CSV: {e}")
         # --- End of new feature ---
 
     except json.JSONDecodeError:
-        st.error("❌ Invalid JSON format. Please check your input.")
+        st.error("Invalid JSON format. Please check your input.")
     except Exception as e:
-        st.error(f"⚠️ An unexpected error occurred: {e}")
+
+        st.error(f"An unexpected error occurred: {e}")
