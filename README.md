@@ -2,17 +2,17 @@
 
 **Flat D. JSON** is a lightweight, interactive web app built with Streamlit that lets you flatten complex nested JSON files into a clean, key–value structure.
 
-You can upload a `.json` file or paste raw JSON text — the app instantly flattens it and lets you download the flattened JSON or CSV with one click.
+You can upload a `.json` file or paste raw JSON text, the app instantly flattens it and lets you download the flattened JSON or CSV with one click.
 
 ---
 
 ## Features
 
-- Upload or paste JSON — works with files or raw JSON text  
+- Upload or paste JSON, works with files or raw JSON text  
 - Handles deeply nested JSON with objects and arrays  
 - Customizable key separator (default `"."`)  
 - Instant download as flattened `.json`  
-- Export to CSV (new!) — get flattened data in tabular form  
+- Export to CSV (new!), get flattened data in tabular form  
 - Simple Streamlit UI with recursive flattening logic  
 - Unit tested with `pytest`  
 
@@ -121,3 +121,4 @@ If you find this project helpful, please consider **starring ⭐ the repo** or s
 
 
 **Author:** [Abhinav Harbola](https://github.com/abhinavharbola)
+
