@@ -22,7 +22,7 @@ You can upload a `.json` file or paste raw JSON text, the app instantly flattens
 
 | Tool       | Purpose                          |
 |-------------|----------------------------------|
-| **Python 3.x** | Core language                  |
+| **Python 3** | Core language                  |
 | **Streamlit**  | Web app framework              |
 | **Pandas**     | CSV generation                 |
 | **Pytest**     | Unit testing                   |
@@ -121,4 +121,3 @@ If you find this project helpful, please consider **starring ⭐ the repo** or s
 
 
 **Author:** [Abhinav Harbola](https://github.com/abhinavharbola)
-
