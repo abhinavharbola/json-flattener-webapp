@@ -101,12 +101,3 @@ streamlit run app.py
 | user.name | user.address.city | user.address.postal | user.tags.0 | user.tags.1 |
 |------------|------------------|---------------------|--------------|--------------|
 | Alice      | Wonderland       | 12345               | admin        | dev          |
-
----
-
-## Potential Enhancements
-
-- Search bar for flattened keys  
-- Tree view toggle to compare flat vs nested JSON  
-- Excel (XLSX) export via `openpyxl`  
-- Handle various file encodings (UTF-8, UTF-16)
