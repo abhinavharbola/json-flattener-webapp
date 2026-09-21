@@ -109,15 +109,4 @@ streamlit run app.py
 - Search bar for flattened keys  
 - Tree view toggle to compare flat vs nested JSON  
 - Excel (XLSX) export via `openpyxl`  
-- Handle various file encodings (UTF-8, UTF-16)  
-
----
-
-## Contribute & Support
-
-If you find this project helpful, please consider **starring ⭐ the repo** or submitting a **pull request** with your improvements!
-
----
-
-
-**Author:** [Abhinav Harbola](https://github.com/abhinavharbola)
+- Handle various file encodings (UTF-8, UTF-16)
