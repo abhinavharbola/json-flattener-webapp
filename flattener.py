@@ -1,8 +1,3 @@
-"""
-Core logic for the JSON Flattener.
-Separated from the Streamlit app for testing and reusability.
-"""
-
 def json_flattener(data, parent_key="", sep="."):
     """
     Recursively flattens a nested JSON-like structure (dict or list) 
